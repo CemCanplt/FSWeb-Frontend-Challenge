@@ -1,1 +1,1 @@
-const data = [];
+export const data = [];

@@ -1,7 +1,8 @@
 import "./App.css";
+import MyProvider from "./context/MyProvider";
 
 function App() {
-  return <></>;
+  return <MyProvider></MyProvider>;
 }
 
 export default App;
