@@ -1,5 +1,11 @@
 export const data = {
   test: "Kontrol Metni",
   en: {},
-  tr: {},
+  tr: {
+    giris: {},
+    skills: {},
+    profile: {},
+    projects: {},
+    footer: {},
+  },
 };
