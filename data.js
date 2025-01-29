@@ -1,1 +1,5 @@
-export const data = [];
+export const data = {
+  test: "Kontrol Metni",
+  en: {},
+  tr: {},
+};

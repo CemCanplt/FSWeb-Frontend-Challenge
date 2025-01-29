@@ -1,7 +1,7 @@
 import { data } from "../../data";
 import { createContext } from "react";
 
-const MyContext = createContext(data);
+export const MyContext = createContext(data);
 /* const { data } = useContext(MyContext) */
 
 const MyProvider = ({ children }) => {
