@@ -44,7 +44,7 @@ function App() {
 
   return (
     <MyProvider>
-      <Giris />
+      <Giris setDarkMode={setDarkMode} darkMode={darkMode} />
       <Skills />
       <Profile />
       <Projects />
