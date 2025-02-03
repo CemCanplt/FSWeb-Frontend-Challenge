@@ -2,11 +2,11 @@ import { useContext } from "react";
 import { MyContext } from "../context/MyProvider";
 
 function Giris({ setDarkMode, darkMode }) {
-  const { data } = useContext(MyContext);
+  const { dilVerisi, ortakVeri } = useContext(MyContext);
 
   return (
     <>
-      <p>{data.test}</p>
+      <p>{ortakVeri?.giris.name}</p>
       <button onClick={() => setDarkMode(!darkMode)}>Dark Mode</button>
     </>
   );
