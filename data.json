@@ -41,8 +41,10 @@
   },
   "tr": {
     "giris": {
-      "dil": "",
-      "darkMode": {},
+      "onEk": "SWITCH TO ",
+      "dil": "ENGLISH",
+      "sonEk": null,
+      "darkMode": "KARANLIK MOD",
       "title": "BAŞLIK",
       "text": ""
     },

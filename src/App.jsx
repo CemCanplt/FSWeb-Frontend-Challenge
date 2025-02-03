@@ -13,15 +13,16 @@ const tarayiciKontrol = () => {
   const prefersDarkScheme = window.matchMedia(
     "(prefers-color-scheme: dark)"
   ).matches;
-  const theme = prefersDarkScheme ? "dark" : "light";
+
+  /* const theme = prefersDarkScheme ? "dark" : "light";
 
   if (theme === "dark") {
     return true;
   } else if (theme === "light") {
     return false;
-  }
+  } */
 
-  return false;
+  return prefersDarkScheme;
 };
 
 function App() {
