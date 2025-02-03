@@ -42,7 +42,7 @@ const MyProvider = ({ children }) => {
   }, []);
 
   return (
-    <MyContext.Provider value={{ dilVerisi, ortakVeri, setDil }}>
+    <MyContext.Provider value={{ dilVerisi, ortakVeri, setDil, dil }}>
       {children}
     </MyContext.Provider>
   );
