@@ -11,24 +11,44 @@
         "linkedIn": "../../public/LinkedIn.svg"
       }
     },
-    "skills": {
-      "img": {
-        "javaScript": "",
-        "node": "",
-        "react": "",
-        "vsCode": "",
-        "redux": "",
-        "figma": ""
+    "skills": [
+      {
+        "id": 0,
+        "name": "javaScript",
+        "img": "../../public/Skills/js-logo.png",
+        "text": "JAVASCRIPT"
       },
-      "imgText": {
-        "javaScript": "JAVASCRIPT",
-        "node": "NODE",
-        "react": "REACT",
-        "vsCode": "VS CODE",
-        "redux": "REDUX",
-        "figma": "FIGMA"
+      {
+        "id": 1,
+        "name": "node",
+        "img": "../../public/Skills/node-logo.png",
+        "text": "NODE"
+      },
+      {
+        "id": 2,
+        "name": "react",
+        "img": "../../public/Skills/rectangle.png",
+        "text": "REACT"
+      },
+      {
+        "id": 3,
+        "name": "vsCode",
+        "img": "../../public/Skills/vs-code-logo.png",
+        "text": "VS CODE"
+      },
+      {
+        "id": 4,
+        "name": "redux",
+        "img": ".../../public/Skills/redux-logo.png",
+        "text": "REDUX"
+      },
+      {
+        "id": 5,
+        "name": "figma",
+        "img": "../../public/Skills/figma-logo.png",
+        "text": "FIGMA"
       }
-    },
+    ],
     "profile": { "img": "" },
     "projects": {
       "cardOne": { "img": "" },
@@ -54,7 +74,7 @@
       "text": "...who likes to craft solid and scalable frontend products with great user experience"
     },
     "skills": {
-      "title": ""
+      "title": "Nitelikler"
     },
     "profile": {
       "title": "",

@@ -43,7 +43,9 @@ function Giris({ setDarkMode, darkMode }) {
             </label>
             <label
               htmlFor="darkMode"
-              className={/* "cursor-pointer pb-0.5" */ "cursor-pointer text-(--hafif-mor)"}
+              className={
+                /* "cursor-pointer pb-0.5" */ "cursor-pointer text-(--hafif-mor)"
+              }
             >
               {dilVerisi?.giris.darkMode} {/* dark mode */}
             </label>
@@ -52,7 +54,7 @@ function Giris({ setDarkMode, darkMode }) {
       </header>
       <div className="ozet flex place-content-between items-center">
         <div className="flex flex-col gap-5">
-          <h1 className="text-5xl">{dilVerisi?.giris.title}</h1>
+          <h1 className="text-5xl font-bold">{dilVerisi?.giris.title}</h1>
           <p className="text-white">{dilVerisi?.giris.text}</p>
           <div className="flex gap-4 items-center">
             <a
