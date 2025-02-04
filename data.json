@@ -60,25 +60,25 @@
         {
           "id": 0,
           "name": "twitter",
-          "icon": "",
+          "icon": "../../icon/twitter.svg",
           "iconLink": ""
         },
         {
           "id": 1,
-          "name": "kare",
-          "icon": "",
+          "name": "codepen",
+          "icon": "../../icon/codepen.svg",
           "iconLink": ""
         },
         {
           "id": 2,
           "name": "mail",
-          "icon": "",
+          "icon": "../../icon/at-sign.svg",
           "iconLink": ""
         },
         {
           "id": 3,
           "name": "instagram",
-          "icon": "",
+          "icon": "../../icon/instagram.svg",
           "iconLink": ""
         }
       ]
@@ -140,7 +140,7 @@
       ]
     },
     "footer": {
-      "title": "Send me a message",
+      "title": "Send me a message!",
       "askMeAnything": "Got a question or proposal, or just want to say hello? Go ahead."
     }
   },
