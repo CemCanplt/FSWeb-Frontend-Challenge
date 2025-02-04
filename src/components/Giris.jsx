@@ -13,7 +13,7 @@ function Giris({ setDarkMode, darkMode }) {
             <p className={/* "pb-0.5" */ ""}>
               {dilVerisi?.giris.onEk}
               <span
-                className="dil cursor-pointer font-bold 
+                className="dil dark:text-(--darkken-yazi-iki) cursor-pointer font-bold 
                 focus:outline-none hover:bg-black hover:rounded-lg 
                 hover:p-1 dark:hover:bg-white
                dark:hover:text-black"
@@ -44,7 +44,7 @@ function Giris({ setDarkMode, darkMode }) {
             <label
               htmlFor="darkMode"
               className={
-                /* "cursor-pointer pb-0.5" */ "cursor-pointer text-(--hafif-mor) min-w-31"
+                /* "cursor-pointer pb-0.5" */ "cursor-pointer text-(--hafif-mor) min-w-31 dark:text-(--darkken-yazi)"
               }
             >
               {darkMode ? dilVerisi?.giris.lightMode : dilVerisi?.giris.darkMode} {/* dark mode */}

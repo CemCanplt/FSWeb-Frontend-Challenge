@@ -14,6 +14,11 @@ html {
   --dark-yesil: #211f0b;
   --dark-skills: #252128;
   --dark-proje: #1a210b;
+  --darkken-yazi: #d9d9d9;
+  --darkken-yazi-iki: #bab2e7;
+  --acik-mor: #c1baed;
+  --kapali-mor: #8173da;
+  --footer-mor: #8f88ff;
 }
 
 .slider:before {
