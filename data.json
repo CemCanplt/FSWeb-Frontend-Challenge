@@ -93,21 +93,31 @@
       "aboutMeText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
     },
     "projects": {
-      "title": "",
-      "cardOne": {
-        "title": "",
-        "text": "",
-        "skills": ["react", "redux", "vercel"],
-        "site": "",
-        "github": ""
-      },
-      "cardTwo": {
-        "title": "",
-        "text": "",
-        "skills": ["react", "redux", "vercel"],
-        "site": "",
-        "github": ""
-      }
+      "title": "Projects",
+      "cards": [
+        {
+          "id": 0,
+          "title": "Workintech",
+          "text": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+          "skills": ["react", "redux", "vercel"],
+          "site": "Visit Website",
+          "siteLink": "",
+          "github": "Visit Github",
+          "githubLink": "",
+          "img": "../../Rectangle41.png"
+        },
+        {
+          "id": 1,
+          "title": "Journey",
+          "text": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+          "skills": ["react", "redux", "vercel"],
+          "site": "Visit Website",
+          "siteLink": "",
+          "github": "Visit Github",
+          "githubLink": "",
+          "img": "../../Rectangle42.png"
+        }
+      ]
     },
     "footer": {
       "title": "",
