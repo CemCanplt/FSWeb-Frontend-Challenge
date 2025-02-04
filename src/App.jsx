@@ -43,14 +43,18 @@ function App() {
     console.log("Kullanıcı Tema Tercihi:", theme);
   }, []);
 
+  const htmlClass = darkMode ? "dark" : null;
+
   return (
-    <MyProvider>
-      <Giris setDarkMode={setDarkMode} darkMode={darkMode} />
-      <Skills />
-      <Profile />
-      <Projects />
-      <Footer />
-    </MyProvider>
+    <div className={htmlClass}>
+      <MyProvider>
+        <Giris setDarkMode={setDarkMode} darkMode={darkMode} />
+        <Skills />
+        <Profile />
+        <Projects />
+        <Footer />
+      </MyProvider>
+    </div>
   );
 }
 

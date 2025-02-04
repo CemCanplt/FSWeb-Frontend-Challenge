@@ -4,7 +4,12 @@
     "giris": {
       "name": "almila",
       "linkText": { "github": "Github", "linkedIn": "LinkedIn" },
-      "links": { "github": "", "linkedIn": "" }
+      "links": { "github": "", "linkedIn": "" },
+      "img": "../../public/hero-right.svg",
+      "linkImage": {
+        "github": "../../public/github.svg",
+        "linkedIn": "../../public/LinkedIn.svg"
+      }
     },
     "skills": {
       "img": {
@@ -45,8 +50,8 @@
       "dil": "ENGLISH",
       "sonEk": null,
       "darkMode": "KARANLIK MOD",
-      "title": "BAŞLIK",
-      "text": ""
+      "title": "I am a Frontend Developer...",
+      "text": "...who likes to craft solid and scalable frontend products with great user experience"
     },
     "skills": {
       "title": ""
