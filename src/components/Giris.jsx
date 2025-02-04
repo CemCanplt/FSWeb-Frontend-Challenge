@@ -49,3 +49,36 @@ function Giris({ setDarkMode, darkMode }) {
 }
 
 export default Giris;
+
+// {/* <label className="relative inline-block w-12 h-6">
+//         <input
+//           type="checkbox"
+//           className="hidden"
+//           checked={darkMode}
+//           onChange={() => setDarkMode(!darkMode)}
+//         />
+
+//         {/* Switch arka planı */}
+//         <span
+//           className={`
+//       absolute inset-0 cursor-pointer rounded-full transition 
+//       ${darkMode ? "bg-[#3730A3]" : "bg-[#8F88FF]"}
+//       peer-focus:ring-2 peer-focus:ring-blue-500
+//     `}
+//         ></span>
+
+//         {/* Sarı daire */}
+//         <span
+//           className={`
+//       absolute top-1 left-1 w-4 h-4 bg-[#FFE86E] rounded-full transition-transform
+//       ${darkMode ? "translate-x-6" : ""}
+//     `}
+//         >
+//           {/* Dark mode aktifken yarım ay efekti için maskeleme elemanı */}
+//           {darkMode && (
+//             <span className="absolute right-2 w-4 h-4 bg-[#3730A3] rounded-full" />
+//           )}
+//         </span>
+//       </label>
+
+//       <p className="text-[#CBF281] text-sm">DARK MODE</p> */}

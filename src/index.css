@@ -34,3 +34,7 @@ html {
   background-color: #555555;
   border-radius: 2rem; /* Yuvarlak köşeler */
 }
+
+.clip-path-ay {
+  clip-path: ellipse(50% 50% at 30% 50%);
+}
