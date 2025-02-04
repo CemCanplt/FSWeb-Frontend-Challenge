@@ -30,10 +30,10 @@ function Proje({ card }) {
           </div>
 
           <div className="flex gap-5">
-            <a className="text-[#120B39]" href={card.siteLink}>
+            <a className="text-[#120B39] underline" href={card.siteLink}>
               {card.site}
             </a>
-            <a className="text-[#120B39]" href={card.githubLink}>
+            <a className="text-[#120B39] underline" href={card.githubLink}>
               {card.github}
             </a>
           </div>

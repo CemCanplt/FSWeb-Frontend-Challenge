@@ -55,13 +55,33 @@
       "cardTwo": { "img": "" }
     },
     "footer": {
-      "gmail": "",
-      "links": {
-        "twitter": "",
-        "kare": "",
-        "mail": "",
-        "instagram": ""
-      }
+      "gmail": "almilasucode@gmail.com",
+      "links": [
+        {
+          "id": 0,
+          "name": "twitter",
+          "icon": "",
+          "iconLink": ""
+        },
+        {
+          "id": 1,
+          "name": "kare",
+          "icon": "",
+          "iconLink": ""
+        },
+        {
+          "id": 2,
+          "name": "mail",
+          "icon": "",
+          "iconLink": ""
+        },
+        {
+          "id": 3,
+          "name": "instagram",
+          "icon": "",
+          "iconLink": ""
+        }
+      ]
     }
   },
   "tr": {
@@ -120,8 +140,8 @@
       ]
     },
     "footer": {
-      "title": "",
-      "askMeAnything": ""
+      "title": "Send me a message",
+      "askMeAnything": "Got a question or proposal, or just want to say hello? Go ahead."
     }
   },
   "en": {}
