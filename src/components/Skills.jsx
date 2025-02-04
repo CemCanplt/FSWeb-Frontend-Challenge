@@ -6,7 +6,7 @@ function Skills() {
   const { dilVerisi, ortakVeri } = useContext(MyContext);
 
   return (
-    <div className="py-12 px-40 flex place-content-between gap-20">
+    <div className="py-12 px-40 flex place-content-between gap-20 dark:bg-(--dark-skills)">
       <h1 className="text-(--hafif-mor) text-5xl font-bold">
         {dilVerisi?.skills.title}
       </h1>

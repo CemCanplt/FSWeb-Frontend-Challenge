@@ -90,8 +90,9 @@
       "dil": "ENGLISH",
       "sonEk": null,
       "darkMode": "KARANLIK MOD",
-      "title": "I am a Frontend Developer...",
-      "text": "...who likes to craft solid and scalable frontend products with great user experience"
+      "lightMode": "AYDINLIK MOD",
+      "title": "Bir Frontend Developer olarak...",
+      "text": "...harika kullanıcı deneyimleri sunan fişek gibi responsive tasarımlar yapabilirim."
     },
     "skills": {
       "title": "Nitelikler"
@@ -99,7 +100,7 @@
     "profile": {
       "title": "Profil",
       "basics": {
-        "basicTitle": "Basic Information",
+        "basicTitle": "Temel Bilgiler",
         "dogumSoru": "Doğum Tarihi",
         "dogum": "24.03.1996",
         "ikametSoru": "İkamet Yeri",
@@ -107,6 +108,67 @@
         "egitimDurumuSoru": "Eğitim Durumu",
         "egitimDurumu": "Hacettepe Ünv. Biyoloji, Lisans, 2016",
         "rolTercihiSoru": "Tercih Ettiği Rol",
+        "rolTercihi": "Frontend, UI"
+      },
+      "aboutMeTitle": "Hakkımda",
+      "aboutMeText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+    },
+    "projects": {
+      "title": "Projeler",
+      "cards": [
+        {
+          "id": 0,
+          "title": "Workintech",
+          "text": "Kullanıcılarınızın hangi çerezleri kabul edip reddedeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Bu, vanilla JS, SCSS ve Parcel Bundler ile oluşturuldu ve bir NPM paketi olarak mevcuttur ve git deposu kod ve temalarda her türlü özelleştirmeyi mümkün kılar.",
+          "skills": ["react", "redux", "vercel"],
+          "site": "Siteye Bakış At",
+          "siteLink": "",
+          "github": "Github'tan Kodları İncele",
+          "githubLink": "",
+          "img": "../../Rectangle41.png"
+        },
+        {
+          "id": 1,
+          "title": "Journey",
+          "text": "Kullanıcılarınızın hangi çerezleri kabul edip reddedeceklerini seçmelerine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Bu, vanilla JS, SCSS ve Parcel Bundler ile oluşturuldu ve bir NPM paketi olarak mevcuttur ve git deposu kod ve temalarda her türlü özelleştirmeyi mümkün kılar.",
+          "skills": ["react", "redux", "vercel"],
+          "site": "Siteye Bakış At",
+          "siteLink": "",
+          "github": "Github'tan Kodları İncele",
+          "githubLink": "",
+          "img": "../../Rectangle42.png"
+        }
+      ]
+    },
+    "footer": {
+      "title": "İstersen bana bir mesaj at!",
+      "askMeAnything": "Bir sorunuz veya öneriniz mi var, ya da sadece merhaba demek mi istiyorsunuz? Her türlü iletişime açığım."
+    }
+  },
+  "en": {
+    "giris": {
+      "onEk": null,
+      "dil": "TÜRKÇE",
+      "sonEk": "'YE GEÇ",
+      "darkMode": "DARK MODE",
+      "lightMode": "LIGHT MOD",
+      "title": "I am a Frontend Developer...",
+      "text": "...who likes to craft solid and scalable frontend products with great user experience"
+    },
+    "skills": {
+      "title": "Skilss"
+    },
+    "profile": {
+      "title": "Profil",
+      "basics": {
+        "basicTitle": "Basic Information",
+        "dogumSoru": "Date of Birth",
+        "dogum": "24.03.1996",
+        "ikametSoru": "Place of Residence",
+        "ikamet": "Ankara",
+        "egitimDurumuSoru": "Educational Status",
+        "egitimDurumu": "Hacettepe Ünv. Biyoloji, Lisans, 2016",
+        "rolTercihiSoru": "Preferred Role",
         "rolTercihi": "Frontend, UI"
       },
       "aboutMeTitle": "About Me",
@@ -143,6 +205,5 @@
       "title": "Send me a message!",
       "askMeAnything": "Got a question or proposal, or just want to say hello? Go ahead."
     }
-  },
-  "en": {}
+  }
 }

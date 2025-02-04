@@ -10,6 +10,10 @@ html {
   --hafif-mor: #4731d3;
   --koyu-mor: #3730a3;
   --acik-yesil: #cbf281;
+  --dark-mavi: #171043;
+  --dark-yesil: #211f0b;
+  --dark-skills: #252128;
+  --dark-proje: #1a210b;
 }
 
 .slider:before {
@@ -48,5 +52,15 @@ html {
     #4731d3 75.2%,
     #cbf281 24.8%,
     #cbf281
+  );
+}
+
+.dark .girisArkaPlani {
+  background: linear-gradient(
+    to right,
+    #171043,
+    #171043 75.2%,
+    #211f0b 24.8%,
+    #211f0b
   );
 }

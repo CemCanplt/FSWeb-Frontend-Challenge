@@ -44,10 +44,10 @@ function Giris({ setDarkMode, darkMode }) {
             <label
               htmlFor="darkMode"
               className={
-                /* "cursor-pointer pb-0.5" */ "cursor-pointer text-(--hafif-mor)"
+                /* "cursor-pointer pb-0.5" */ "cursor-pointer text-(--hafif-mor) min-w-31"
               }
             >
-              {dilVerisi?.giris.darkMode} {/* dark mode */}
+              {darkMode ? dilVerisi?.giris.lightMode : dilVerisi?.giris.darkMode} {/* dark mode */}
             </label>
           </div>
         </div>
@@ -62,7 +62,7 @@ function Giris({ setDarkMode, darkMode }) {
                text-(--koyu-mor) bg-white border border-gray-300
                 focus:outline-none hover:bg-gray-100 focus:ring-4
                  focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2
-                  dark:bg-gray-900 dark:text-white dark:border-gray-600
+                  dark:bg-gray-900 dark:text-white dark:border-gray-400
                    dark:hover:bg-gray-700 dark:hover:border-gray-600
                     dark:focus:ring-gray-700"
               href={ortakVeri?.giris.links.github}
@@ -75,7 +75,7 @@ function Giris({ setDarkMode, darkMode }) {
                text-(--koyu-mor) bg-white border border-gray-300
                 focus:outline-none hover:bg-gray-100 focus:ring-4
                  focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2
-                  dark:bg-gray-900 dark:text-white dark:border-gray-600
+                  dark:bg-gray-900 dark:text-white dark:border-gray-400
                    dark:hover:bg-gray-700 dark:hover:border-gray-600
                     dark:focus:ring-gray-700"
               href={ortakVeri?.giris.links.linkedIn}
