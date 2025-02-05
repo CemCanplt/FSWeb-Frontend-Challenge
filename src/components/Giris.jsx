@@ -7,7 +7,7 @@ function Giris({ setDarkMode, darkMode }) {
   return (
     <div className="girisArkaPlani bg-(--hafif-mor) py-12 px-40 flex flex-col gap-20">
       <header className="font-bold">
-        <div className="flex place-content-between items-start">
+        <div className="almila flex place-content-between items-start">
           <h1 className="text-3xl">{ortakVeri?.giris.name}</h1> {/* almila */}
           <div className="flex gap-4 items-center p-1">
             <p className={/* "pb-0.5" */ ""}>
@@ -44,7 +44,7 @@ function Giris({ setDarkMode, darkMode }) {
             <label
               htmlFor="darkMode"
               className={
-                /* "cursor-pointer pb-0.5" */ "cursor-pointer text-(--hafif-mor) min-w-31 dark:text-(--darkken-yazi)"
+                /* "cursor-pointer pb-0.5" */ "darkModum cursor-pointer text-(--hafif-mor) min-w-31 dark:text-(--darkken-yazi)"
               }
             >
               {darkMode ? dilVerisi?.giris.lightMode : dilVerisi?.giris.darkMode} {/* dark mode */}
@@ -52,11 +52,11 @@ function Giris({ setDarkMode, darkMode }) {
           </div>
         </div>
       </header>
-      <div className="ozet flex place-content-between items-center">
+      <div className="giris ozet flex place-content-between items-center">
         <div className="flex flex-col gap-5">
           <h1 className="text-5xl font-bold">{dilVerisi?.giris.title}</h1>
           <p className="text-white">{dilVerisi?.giris.text}</p>
-          <div className="flex gap-4 items-center">
+          <div className="linkler flex gap-4 items-center">
             <a
               className="flex place-content-between gap-3 items-center
                text-(--koyu-mor) bg-white border border-gray-300
@@ -89,7 +89,7 @@ function Giris({ setDarkMode, darkMode }) {
           </div>
         </div>
         <div>
-          <img src={ortakVeri?.giris.img} alt="resim" />
+          <img className="" src={ortakVeri?.giris.img} alt="resim" />
         </div>
       </div>
     </div>

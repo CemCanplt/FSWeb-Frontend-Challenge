@@ -1,7 +1,7 @@
 function Proje({ card }) {
   return (
     <>
-      <div className="bg-white rounded-lg flex gap-10 items-center dark:bg-(--dark-skills)">
+      <div className="tekProje bg-white rounded-lg flex gap-10 items-center dark:bg-(--dark-skills)">
         <div>
           <img
             className="text-[#383838] aspect-square w-250"

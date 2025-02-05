@@ -69,3 +69,103 @@ html {
     #211f0b
   );
 }
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 980px) {
+  .almila {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .giris {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .girisArkaPlani {
+    background: linear-gradient(
+      to right,
+      #4731d3,
+      #4731d3 100%,
+      #cbf281 0%,
+      #cbf281
+    );
+  }
+
+  .dark .girisArkaPlani {
+    background: linear-gradient(
+      to right,
+      #171043,
+      #171043 100%,
+      #211f0b 0%,
+      #211f0b
+    );
+  }
+
+  .darkModum {
+    color: #cbf281;
+  }
+
+  .giris .linkler {
+    justify-content: center;
+  }
+
+  .girisArkaPlani {
+    padding: 2rem;
+  }
+
+  .skills {
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillsMapi {
+    justify-content: center;
+  }
+
+  .profil {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profilAlti {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bilgi {
+    text-align: left;
+    gap: 2rem;
+    justify-content: flex-start;
+    
+  }
+
+  .projem {
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tekProje {
+    flex-direction: column;
+  }
+
+  footer {
+    padding: 2rem;
+    text-align: center;
+  }
+}
