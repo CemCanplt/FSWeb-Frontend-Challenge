@@ -7,7 +7,7 @@ export const MyContext = createContext();
 const MyProvider = ({ children }) => {
   // Hangi dildeyim?
   const [dil, setDil] = useState(() => {
-    const userLang = navigator.language || navigator.userLanguage;
+    const userLang = navigator.language || navigator.userLanguage; // tr-TR
     const dilKodu = userLang.slice(0, 2); // Sadece ilk iki harfi
     return dilKodu ? dilKodu : "tr";
   });
