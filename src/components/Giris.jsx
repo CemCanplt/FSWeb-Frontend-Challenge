@@ -47,7 +47,10 @@ function Giris({ setDarkMode, darkMode }) {
                 /* "cursor-pointer pb-0.5" */ "darkModum cursor-pointer text-(--hafif-mor) min-w-31 dark:text-(--darkken-yazi)"
               }
             >
-              {darkMode ? dilVerisi?.giris.lightMode : dilVerisi?.giris.darkMode} {/* dark mode */}
+              {darkMode
+                ? dilVerisi?.giris.lightMode
+                : dilVerisi?.giris.darkMode}{" "}
+              {/* dark mode */}
             </label>
           </div>
         </div>
